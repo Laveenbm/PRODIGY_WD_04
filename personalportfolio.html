@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[profile] - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="portfoliostyle.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>[Portfolio]</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contactModal">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <img src="your-photo.jpg" class="profile-photo" alt="Profile Photo">
+            <h2>Crafting Exceptional Web Experiences with Precision and Passion</h2>
+            <p>Hi, I'm Laveen</p>
+            <p>A passionate web developer specializing in creating innovative and user-friendly websites. With a strong foundation in front-end and back-end technologies, I transform ideas into dynamic digital experiences.</p>
+            <a href="#projects" class="btn">See My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="profile-details">
+                    <p>Brief narrative about your journey as a web developer...</p>
+                    <h3>Education</h3>
+                    <p>pursuing...</p>
+                    <h3>Professional Experience</h3>
+                    <p>Led the development of a responsive e-commerce platform...</p>
+                    <h3>Skills</h3>
+                    <p>Overview of key skills</p>
+                    <p>Front-end</p>
+                    <p>Back-end</p>
+                    <p>Web Design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-gallery">
+                <div class="project-item">
+                    <img src="project1-thumbnail.jpg" alt="Project 1">
+                    <h3>Project Name</h3>
+                    <p>Brief description of the project...</p>
+                    <p>Technologies Used: HTML, CSS, JavaScript, React</p>
+                </div>
+                <!-- Add more project items here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-content">
+                <h3>Technical Skills</h3>
+                <p>JavaScript (Expert), React (Intermediate), Node.js (Advanced)</p>
+                <h3>Design Skills</h3>
+                <p>Figma, Adobe XD, Sketch</p>
+                <h3>Soft Skills</h3>
+                <p>Communication, Problem-solving, Project Management</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Contact Form -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h2>Contact Me</h2>
+            <form action="submit-form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contactModal">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
